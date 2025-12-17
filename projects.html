@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نمونه کارها | هستی علیدوست</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Web Designer</a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">خانه</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">درباره من</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html" target="_blank" >نمونه کارها</a>
+          </li>
+          <li class="nav-item">
+            <span class="text-muted mx-3 d-none d-lg-block">|</span>
+          </li>
+  
+          <li class="nav-item d-flex align-items-center">
+            <i class="fas fa-phone-alt me-2 text-primary"></i>
+            <a class="nav-link contact-link" dir="ltr" href="tel:+989123456789">0996 681 6288</a>
+          </li>
+  
+          <li class="nav-item d-flex align-items-center">
+            <i class="fab fa-telegram-plane me-2 text-primary"></i>
+            <a class="nav-link contact-link" href="https://t.me/yourusername" dir="ltr" target="_blank">@Hasty_web</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div style="height: 80px;"></div>
+  
+  <section class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold mb-4">نمونه کارها</h2>
+        <p class="lead text-muted col-lg-8 mx-auto">
+          پروژه‌هایی که با HTML، CSS و Bootstrap ساختم. 
+          همه ریسپانسیو، تمیز و کاربرپسند هستن.
+        </p>
+      </div>
+
+      <div class="row g-4 g-lg-5">
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card">
+            <img src="images/cart2.jpg" alt="پروژه ۱" class="img-fluid rounded">
+            <div class="project-info p-4 text-center">
+              <h5 class="fw-bold">لندینگ پیج رستوران</h5>
+              <p class="text-muted small">ریسپانسیو • انیمیشن • شیک</p>
+              <div class="mt-3">
+                <a href="menu/index.html" class="btn btn-sm btn-primary me-2">مشاهده</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card">
+            <img src="images/cart1.jpg" alt="پروژه ۲" class="img-fluid rounded">
+            <div class="project-info p-4 text-center">
+              <h5 class="fw-bold">صفحه معرفی یک بیزنس خدمات اینترنتی</h5>
+              <p class="text-muted small">مینیمال • مدرن • ریسپانسیو</p>
+              <div class="mt-3">
+                <a href="new/index.html" class="btn btn-sm btn-primary me-2">مشاهده</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<div class="col-lg-4 col-md-6">
+    <div class="project-card">
+      <img src="images/cart2.jpg" alt="پروژه ۳" class="img-fluid rounded">
+      <div class="project-info p4 text-center">
+        <h5 class="fw-bold">فروشگاه آنلاین ساده</h5>
+        <p class="text-muted small">سبد خرید • فیلتر محصولات</p>
+        <div class="mt-3">
+          <a href="hill/index.html" class="btn btn-sm btn-primary me-2">مشاهده</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-center mt-5">
+  <a href="index.html" class="btn btn-outline-primary px-5">برگشت به صفحه اصلی</a>
+</div>
+</div>
+</section>
+
+<script>
+window.addEventListener('scroll', function() {
+const navbar = document.querySelector('.navbar-custom');
+if (window.scrollY > 50) {
+  navbar.classList.add('scrolled');
+} else {
+  navbar.classList.remove('scrolled');
+}
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
