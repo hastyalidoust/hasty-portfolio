@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insider Agency</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">insider</div>
+    <nav class="nav-menu">
+      <a href="#">about us</a>
+      <a href="#">services</a>
+      <a href="#">contacts</a>
+    </nav>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>welcome to digital agency insider</h1>
+  </section>
+
+  <section class="history">
+    <h2>our history</h2>
+    <p>Back then in 2016...</p>
+  </section>
+
+  <section class="services">
+    <h2>services</h2>
+    
+    <div class="service-grid">
+      <div class="service-box">
+        <h3>Consultancy</h3>
+        <p>If you’re looking for a strategic, high-impact solution, we’ll help you grow with data-driven performance.</p>
+        <a href="#">Learn More →</a>
+      </div>
+  
+      <div class="service-box center">
+        <img src="pic/flower.jpg" alt="3D visual">
+      </div>
+  
+      <div class="service-box">
+        <h3>Automation</h3>
+        <p>We optimize your campaigns, automate workflows and reduce manual mistakes while improving results.</p>
+        <a href="#">Learn More →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services extra-services">
+    <h2>more services</h2>
+    <div class="service-boxes">
+      <div class="box">Consultancy</div>
+      <div class="box">Automation</div>
+      <div class="box">Agency</div>
+    </div>
+  </section>
+
+  <section class="cases">
+    <h2 class="success">success cases</h2>
+  
+    <div class="case-grid">
+      <div class="case-box">
+        <h3>Arredo</h3>
+        <p>We helped Arredo scale their e-commerce by optimizing ad performance without losing returns.</p>
+        <a href="#">View on Facebook →</a>
+      </div>
+  
+      <div class="case-box">
+        <h3>Agency</h3>
+        <p>We developed strategies for e-commerce and SaaS clients, focusing on better lead generation and ROI.</p>
+        <a href="#">Learn More →</a>
+      </div>
+  
+      <div class="case-box">
+        <h3>Supervielle</h3>
+        <p>We built campaigns to lower cost per acquisition by 12% through smarter platform allocation.</p>
+        <a href="#">View on Facebook →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <h2>Let's Talk</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Insider Agency</p>
+  </footer>
+
+  <script>
+    // ساده همبرگر منو
+    document.querySelector('.hamburger').addEventListener('click', () => {
+      document.querySelector('.nav-menu').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
